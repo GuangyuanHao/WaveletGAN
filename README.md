@@ -3,7 +3,7 @@
 
   This model's novel points: 
   1. Two discriminators "teach" one generator. 
-  2. Wavelet filters are put in front of first layers of two discriminators respectively, so the discriminators' ability is limited and also they can "teach" the generator different knowledge. One "teaches" generator to generate one high-definition part of image and anther "teaches" generator to generate anther low-definition part of a image. 
+  2. Low-pass wavelet filter and a mask, and anther mask are put in front of first layers of two discriminators respectively, so the discriminators' ability is limited and they can also "teach" the generator different knowledge. One "teaches" generator to generate one low-definition part of an image and anther "teaches" generator to generate anther high-definition part of an image. 
   
 # Current Results on CelebA
 
